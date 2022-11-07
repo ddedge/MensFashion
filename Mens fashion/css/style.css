@@ -1,0 +1,743 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    
+}
+p{
+  margin: 0px;
+}
+.main-banner
+{
+    background: url(../images/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    position: relative;
+}
+
+.logo_adjust
+{
+    width:120px;
+    height:90px;
+}
+.nav-link
+{
+    margin-right: 10px;
+    justify-content: space-between;
+    color: #86b0af;
+    font-family: poppins,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.nav-link:hover
+{
+    color: #86b0af;
+    background-color: #174954;
+}
+.navbar-nav a
+{
+  color: #86b0af;
+}
+.main_heading
+{
+   position:absolute;
+   top: 43%;
+   left: 33%;
+}
+.main_heading h1
+{
+    font-family:Domine;
+    color:#174954;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+.main_heading h4
+{
+    font-family:Domine;
+    color:#86b0af;
+    letter-spacing: 5px;
+}
+.btn_more
+{
+    font-family:Domine;
+    border: 2px solid #174954;
+    color: #86b0af;
+}
+.btn_more:hover
+{
+    color: #86b0af;
+    background-color: #174954;
+}
+.section_1_bg
+{
+    background-color:#86b0af;
+    padding: 80px 0px 80px;
+}
+.shop_img_adjust
+{
+    border-radius: 20px;
+}
+.btn_shop
+{
+    font-family:Domine;
+    border: 2px solid #174954;
+    color: #174954;
+}
+.btn_shop:hover
+{
+    color: #86b0af;
+    background-color: #174954;
+}
+.section_1_bg h2
+{
+    font-family: Domine;
+    color: #174954;
+}
+.section_2_bg
+{
+    background-color:#174954;
+    padding: 80px 0px 80px;
+}
+.section_2_bg h2
+{
+    font-family: Domine;
+    color: #86b0af;
+}
+.btn_custom
+{
+    font-family:Domine;
+    border: 2px solid #86b0af;
+    color: #86b0af;
+}
+.btn_custom:hover
+{
+    color: #174954;
+    background-color: #86b0af;
+}
+.about_section
+{
+  background-color: #86b0af;
+  padding: 80px 0px 80px;
+}
+.about_section h2
+{
+    font-family: Domine;
+    color: #174954;
+    font-weight: 600;
+}
+.about_us_image
+{
+  border-radius: 20px;
+}
+
+.section_footer
+{
+  background: #d4d9df ;
+  padding: 30px 0px 30px;
+  border-bottom: 2px solid #86b0af;
+}
+
+.footer_links a
+{
+  text-decoration: none;
+  color: #174954;
+  font-weight: 400;
+  font-size: large;
+  margin-left: 5px;
+}
+.footer_links h4
+{
+  color: #174954;
+}
+.footer_addres h4
+{
+  color: #174954;
+}
+
+.footer_addres ul
+{
+  list-style: none;
+  padding: 0px;
+}
+.footer_addres ul li
+{
+  display:flex;
+	align-items: center;
+  margin-top: 5px;
+
+}
+.footer_addres p
+{
+  margin-left: 10px;
+}
+#change_color
+{
+  color: #174954;
+}
+.social_media ul
+{
+  display: flex;
+  padding: 0px;
+}
+.social_media ul li 
+{
+  display: inline-block;
+  margin-left: 10px;
+}
+.social_media a
+{
+  color:#174954;
+}
+.copy_footer
+{
+  background: #d4d9df ;
+}
+
+
+
+
+
+
+.section_3_bg
+{
+  background-color: #174954;
+  padding: 80px 0px 80px;
+}
+.section_3_bg h2
+{
+  font-family: Domine;
+    color: #86b0af;
+    font-weight: 600;
+}
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  background: #d4d9df;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.clash-card__image {
+  position: relative;
+  height: 268px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.clash-card__image--barbarian {
+  background: #86b0af;
+}
+.clash-card__image--barbarian img {
+  /* width: 400px; */
+  position: absolute;
+  top: -39px;
+  left: 30px;
+}
+
+.clash-card__level {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.clash-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.btn_card_color
+{
+  background-color: #86b0af;
+  color: #174954;
+}
+
+
+
+.section_services
+{
+  background-color: #86b0af;
+  padding: 80px 0px 80px;
+}
+.section_services h2
+{
+  font-family: Domine;
+    color: #174954;
+    font-weight: 600;
+}
+.main {
+  width: 100%;
+  min-height: 380px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.service {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: 0 0 20px -15px #174954;
+  transition: transform .8s;
+}
+
+/* Mengatur posisi logo service */
+.service-logo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: -90px auto 0;
+  background: #fff;
+  border: 18px solid #174954;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Membuat border title */
+.service h4 {
+  height: 35px;
+  width: 80%;
+  margin: 50px auto;
+  color: #174954;
+  background: #fff;
+  position: relative;
+  font-family: Domine;
+}
+
+.service h4::after,
+.service h4::before {
+  content: '';
+  width: 40px;
+  height: 30px;
+ position: absolute;
+ z-index: -1;
+}
+
+.service h4::after {
+  background: linear-gradient(to right, #fff, #174954);
+  right: -5px;
+  top: -5px;
+}
+
+.service h4::before {
+  background: linear-gradient(to right, #174954, #fff);
+  left: -5px;
+  bottom: -5px;
+}
+
+
+/* membuat shadow untuk service */
+.main::after {
+  content: '';
+  height: 200px;
+  width: 80%;
+  background: #fff;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 10%;
+  z-index: -1;
+  box-shadow: 0 0 20px -15px #030380;
+  transition: transform .8s;
+}
+.main::before {
+  content: '';
+  height: 200px;
+  width: 64%;
+  background: #fff;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 18%;
+  z-index: -2;
+}
+
+.main:hover .service {
+  transform: translateY(-25px);
+}
+
+.main:hover::after {
+  transform: translateY(-25px);
+}
+
+.service-logo img {
+  transition: transform 1s;
+}
+
+.main:hover .service-logo img {
+  transform: rotate(360deg);
+}
+
+
+.contact_sec
+{
+  background-color: #86b0af;
+  padding: 80px 0px 80px;
+}
+.contact_sec h4
+{
+  font-family: Domine;
+  color: #174954;
+  font-weight: 600;
+}
+.contact_us_img
+{
+  border-radius: 20px;
+}
+.btn_modify
+{
+  background-color: white;
+  color: #86b0af;
+  font-family: Domine;
+}
+.form-control::placeholder
+{
+  font-family: Domine;
+}
+
+.blogs_sec
+{
+  background-color:#174954;
+  padding: 80px 0px 80px;
+}
+.blogs_sec h2
+{
+  font-family: Domine;
+    color: #86b0af;
+    font-weight: 600;
+}
+.blogs_sec .card-body
+{
+  background-color: #86b0af;
+  color: #174954;
+}
+
+.blogs_sec .btn
+{
+  font-family: Domine;
+   background-color: #174954;
+   color: #86b0af;
+}
+
+.band_sec
+{
+  background-color: #174954;
+  padding: 20px 0px 20px;
+}
+
+
+.up_arrow
+{
+  width:50px;
+  position:fixed;
+  top:90%;
+  right:55px;
+  z-index: 99;
+  background-color: #174954;
+  color: #d4d9df;
+  padding: 10px;
+}
+
+
+@media only screen and (max-width:1000px)
+{
+  .main_heading
+{
+   position:absolute;
+   top: 43%;
+   left: 25%;
+}
+.main_heading h4
+{
+  position:absolute;
+   left: -12%;
+}
+.main_heading button
+{
+  position:absolute;
+  left: 12%;
+}
+  .left_again p
+  {
+    text-align: left;
+  }
+  .main:hover .service {
+    transform: translateY(0px);
+  }
+  .main
+  {
+    margin-top: 45px;
+  }
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --animation-duration: 1s;
+  }
+  
+  @-webkit-keyframes slideInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(25%);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes slideInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(25%);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @-webkit-keyframes slideInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-25%);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes slideInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-25%);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @-webkit-keyframes slideInleft {
+    0% {
+      opacity: 0;
+      transform: translateX(25%);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes slideInleft {
+    0% {
+      opacity: 0;
+      transform: translateX(25%);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @-webkit-keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-25%);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-25%);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes zoomIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.75);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes zoomIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.75);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @-webkit-keyframes zoomReverseIn {
+    0% {
+      opacity: 0;
+      transform: scale(1.25);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes zoomReverseIn {
+    0% {
+      opacity: 0;
+      transform: scale(1.25);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @-webkit-keyframes flipInY {
+    0% {
+      opacity: 0;
+      transform: perspective(90vw) rotateY(67.5deg);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes flipInY {
+    0% {
+      opacity: 0;
+      transform: perspective(90vw) rotateY(67.5deg);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  [data-animation] {
+    opacity: 0;
+    -webkit-animation-timing-function: var(--animation-timing-function);
+            animation-timing-function: var(--animation-timing-function);
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-duration: var(--animation-duration);
+            animation-duration: var(--animation-duration);
+    will-change: transform, opacity;
+  }
+  
+  .animations-disabled,
+  .animations-disabled [data-animation] {
+    -webkit-animation: none !important;
+            animation: none !important;
+    opacity: 1 !important;
+  }
+  
+  .slideInUp {
+    -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+  }
+  
+  .slideInDown {
+    -webkit-animation-name: slideInDown;
+            animation-name: slideInDown;
+  }
+  
+  .slideInLeft {
+    -webkit-animation-name: slideInleft;
+            animation-name: slideInleft;
+  }
+  
+  .slideInRight {
+    -webkit-animation-name: slideInRight;
+            animation-name: slideInRight;
+  }
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+  }
+  
+  .zoomIn {
+    -webkit-animation-name: zoomIn;
+            animation-name: zoomIn;
+  }
+  
+  .zoomReverseIn {
+    -webkit-animation-name: zoomReverseIn;
+            animation-name: zoomReverseIn;
+  }
+  
+  .flipInY {
+    -webkit-animation-name: flipInY;
+            animation-name: flipInY;
+  }
+  
+  .flipOutY {
+    -webkit-animation-name: flipInY;
+            animation-name: flipInY;
+    animation-direction: reverse;
+  }
+
+
+
+  
+
+
+
